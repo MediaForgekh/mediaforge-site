@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>MediaForge</title>
+  <defs>
+    <linearGradient id="mf-g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C4A8FF"/>
+      <stop offset="1" stop-color="#6E44F0"/>
+    </linearGradient>
+    <path id="mf-m" d="M14 52 V12 H22 L32 26 L42 12 H50 V52 H42 V29 L32 43 L22 29 V52 Z"/>
+    <clipPath id="mf-b1"><rect x="0" y="0" width="64" height="25.4"/></clipPath>
+    <clipPath id="mf-b2"><rect x="0" y="28.4" width="64" height="7.2"/></clipPath>
+    <clipPath id="mf-b3"><rect x="0" y="38.6" width="64" height="30"/></clipPath>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0E0E10"/>
+  <g fill="url(#mf-g)">
+    <g clip-path="url(#mf-b1)"><use href="#mf-m"/></g>
+    <g clip-path="url(#mf-b2)"><use href="#mf-m"/></g>
+    <g clip-path="url(#mf-b3)"><use href="#mf-m"/></g>
+  </g>
+</svg>

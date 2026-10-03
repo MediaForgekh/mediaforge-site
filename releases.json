@@ -1,0 +1,21 @@
+[
+  {
+    "version": "0.1.0",
+    "date": "2026-10-03",
+    "summary": "The first public preview of MediaForge: save, convert and organize media you're permitted to save, on your own computer.",
+    "features": [
+      "Paste a link to see every available quality, audio track and subtitle, then download with live progress.",
+      "A real download queue: several at once, pause and resume, retry, and recovery after a restart.",
+      "Converter for MP4, MKV, WebM, MP3, AAC, M4A, WAV and FLAC, running on your computer with FFmpeg.",
+      "Library with tags, duplicate detection and saved views; History records every step of every download.",
+      "Browser extension for Chrome, Edge and Firefox: send the page you're on to MediaForge in one click.",
+      "Your own signed-in sessions (cookies.txt), kept in your system's secure credential store.",
+      "English, Khmer, Simplified Chinese and French."
+    ],
+    "fixes": [],
+    "notes": [
+      "This preview isn't code-signed yet: macOS and Windows show a warning the first time you open it. The Download page explains how to continue.",
+      "Licences, checkout and automatic updates switch on in a later release. The preview runs on the Free plan (up to 720p, one download at a time)."
+    ]
+  }
+]

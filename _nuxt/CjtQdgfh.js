@@ -1,0 +1,1 @@
+import{a as e}from"./XPeNr_JM.js";function t(){let t=e(),n=t.app.baseURL.endsWith(`/`)?t.app.baseURL:`${t.app.baseURL}/`;return{isStatic:!!t.public.staticSite,asset:e=>`${n}${e.replace(/^\//,``)}`,releasesRepo:String(t.public.releasesRepo)}}export{t};
