@@ -1,5 +1,18 @@
 [
   {
+    "version": "0.2.1",
+    "date": "2026-10-18",
+    "summary": "Windows on Arm is back.",
+    "features": [],
+    "fixes": [
+      "Windows on Arm (Snapdragon): the installer is back. 0.2.0 shipped without it because the FFmpeg build it bundles had been deleted from where it was downloaded; MediaForge now keeps its own copy."
+    ],
+    "notes": [
+      "Nothing else changed: on macOS, Windows x64 and Linux, 0.2.1 is the same as 0.2.0.",
+      "This preview isn't code-signed yet, and it runs on the Free plan while licences are still off."
+    ]
+  },
+  {
     "version": "0.2.0",
     "date": "2026-10-18",
     "summary": "A faster download engine, a built-in browser, and many more sites.",
