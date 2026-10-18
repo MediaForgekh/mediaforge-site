@@ -1,5 +1,20 @@
 [
   {
+    "version": "0.2.2",
+    "date": "2026-10-18",
+    "summary": "DramaTip episodes, Khmer Avenue albums, and series saved in their own folder.",
+    "features": [
+      "DramaTip: open a series page to see every episode, or an episode page to download that episode with its subtitles.",
+      "Khmer Avenue: an album lists its episodes in order; a single video page downloads one video.",
+      "Episodes of a series or playlist (AsiaDrama, FilmKhHD, meWATCH, DramaTip and lists read through yt-dlp) are saved in a folder named after it.",
+      "Copy an episode's page link from Available downloads."
+    ],
+    "fixes": [],
+    "notes": [
+      "This preview isn't code-signed yet, and it runs on the Free plan while licences are still off."
+    ]
+  },
+  {
     "version": "0.2.1",
     "date": "2026-10-18",
     "summary": "Windows on Arm is back.",
