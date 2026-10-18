@@ -1,5 +1,19 @@
 [
   {
+    "version": "0.2.3",
+    "date": "2026-10-19",
+    "summary": "AsiaDrama episode sources and KissKH episode listings are fixed.",
+    "features": [],
+    "fixes": [
+      "AsiaDrama: scrape OK.ru player entries and direct Rumble MP4/HLS sources, preserve the selected eps parameter, and download supported sources.",
+      "KissKH: preserve the drama ID needed to fetch episode listings during automatic page checks."
+    ],
+    "notes": [
+      "KissKH may list episodes while refusing playback resolution with HTTP 403 if its API does not provide a playable stream URL.",
+      "This preview isn't code-signed yet, and it runs on the Free plan while licences are still off."
+    ]
+  },
+  {
     "version": "0.2.2",
     "date": "2026-10-18",
     "summary": "DramaTip episodes, Khmer Avenue albums, and series saved in their own folder.",

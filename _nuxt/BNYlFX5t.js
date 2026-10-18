@@ -1,0 +1,1 @@
+import{m as e}from"./BPHePmoQ.js";import{c as t,u as n}from"./Og5z2gSJ.js";import{i as r}from"#entry";import{t as i}from"./BHwvB9d9.js";var a=t(async t=>{let a,o;if(t.path===`/admin/login`)return;let{admin:s}=([a,o]=e(()=>r(`/api/admin/session`,{headers:i([`cookie`])})),a=await a,o(),a);if(!s)return n(`/admin/login`)},1);export{a as default};
