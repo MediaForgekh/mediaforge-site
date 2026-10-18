@@ -1,5 +1,26 @@
 [
   {
+    "version": "0.2.0",
+    "date": "2026-10-18",
+    "summary": "A faster download engine, a built-in browser, and many more sites.",
+    "features": [
+      "Built-in browser: browse a site inside MediaForge and press Download when the page has something to save. Sign in there; the session stays on your computer. Ads are blocked.",
+      "New download engine for direct files and streams: several connections per file, and pause and resume without starting over.",
+      "Lists read from the page you have open: TikTok, Facebook, Bilibili, X, Instagram, Threads, Pinterest, Suno and embedded Vimeo players.",
+      "The browser recognises more sites, including Bilibili.tv, Medal, Dailymotion, SnackVideo, Douyin, Xiaohongshu, Kuaishou, SoundCloud, Twitch, Reddit and Rumble.",
+      "Drama and film sites: AKDrama, KissKH, AsiaDrama, DramaTip, OneKh, FilmKhHD, Khmer Avenue and meWATCH, with one row per episode.",
+      "yt-dlp updated to 2026.10.10."
+    ],
+    "fixes": [
+      "Security updates for the TLS library (rustls)."
+    ],
+    "notes": [
+      "This preview isn't code-signed yet: macOS and Windows show a warning the first time you open it. The Download page explains how to continue.",
+      "Licences, checkout and automatic updates are still off. This release runs on the Free plan (up to 720p, one download at a time); taking a whole list at once is a paid-plan feature, so for now save list items one at a time.",
+      "Rumble checks for bots: open the video in the built-in browser first, then download."
+    ]
+  },
+  {
     "version": "0.1.0",
     "date": "2026-10-03",
     "summary": "The first public preview of MediaForge: save, convert and organize media you're permitted to save, on your own computer.",
